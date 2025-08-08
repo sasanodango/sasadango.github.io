@@ -1,0 +1,30 @@
+body {
+  font-family: "Yu Gothic", sans-serif;
+  background-color: #f8f8f8;
+  max-width: 700px;
+  margin: 4rem auto;
+  padding: 2rem;
+  line-height: 1.8;
+  color: #333;
+}
+
+h1 {
+  color: #444;
+  text-align: center;
+}
+
+a {
+  color: #006699;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  display: block;
+  margin: 1rem auto;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
