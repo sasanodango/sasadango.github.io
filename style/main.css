@@ -1,16 +1,22 @@
+/* style/main.css */
+
 body {
-  font-family: "Yu Gothic", sans-serif;
-  background-color: #f8f8f8;
-  max-width: 700px;
-  margin: 4rem auto;
+  font-family: "BIZ UDPGothic", "Yu Gothic", "Meiryo", sans-serif;
+  background-color: #ffffff;
+  color: #2c2c2c;
+  max-width: 680px;
+  margin: 5rem auto;
   padding: 2rem;
-  line-height: 1.8;
-  color: #333;
+  line-height: 1.4; /* 行間狭め */
+  font-size: 16px;
+  text-align: justify;
 }
 
 h1 {
-  color: #444;
   text-align: center;
+  color: #444;
+  font-weight: normal;
+  margin-bottom: 2rem;
 }
 
 a {
@@ -24,7 +30,8 @@ a:hover {
 
 img {
   display: block;
-  margin: 1rem auto;
-  border-radius: 6px;
+  margin: 2rem auto;
+  max-width: 100%;
+  border-radius: 4px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
