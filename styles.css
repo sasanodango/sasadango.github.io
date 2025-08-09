@@ -1,0 +1,44 @@
+/* css styles */
+/* 薄い緑のヘッダー（ナビバー） */
+.navbar {
+  background-color: #d8f0d2 !important;  /* 笹っぽい明るい緑 */
+}
+
+/* ヘッダーの文字色を少し濃くする（お好みで） */
+.navbar a {
+  color: #2f4f2f !important;
+}
+
+/* 見出しのサイズ調整 */
+h1 {
+  font-size: 1.8rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+.intro-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap; /* スマホ対応で折り返す */
+  margin-bottom: 2rem;
+}
+
+.intro-text {
+  flex: 1;
+  min-width: 200px;
+}
+
+.intro-image img {
+  border-radius: 8px;
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
